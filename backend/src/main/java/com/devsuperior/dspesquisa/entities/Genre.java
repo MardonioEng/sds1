@@ -40,11 +40,11 @@ public class Genre implements Serializable {
 		this.id = id;
 	}
 
-	public String getNomeString() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNomeString(String nomeString) {
+	public void setName(String nomeString) {
 		this.name = nomeString;
 	}
 
